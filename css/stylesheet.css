@@ -1,7 +1,13 @@
 
 @font-face {
-    font-family: Akzidenz_Bold;
+    font-family: "Akzidenz_Bold";
     src: url(/Typefaces/AkzidenzRoman_bold.ttf);
+}
+
+
+@font-face {
+    font-family: "Akzidenz";
+    src: url(/Typefaces/AkzidenzRoman.ttf);
 }
 
 @font-face {
