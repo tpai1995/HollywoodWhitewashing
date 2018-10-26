@@ -186,13 +186,13 @@ h3 a:hover{
 h4 {
 	margin: 0;
 	margin-left: 150px;
-	font-family: "Garamond", georgia, serif; 
+	font-family: Garamond, "Garamond", georgia, serif; 
 	color:white;
 	font-weight:inherit;
 }
 
 h5{
-	font-family:"Garamond",georgia,serif;
+	font-family:Garamond, "Garamond",georgia,serif;
 	color: white;
 	font-size: 16px;
 	font-weight:normal;
@@ -202,7 +202,7 @@ h5{
 
 
 h6{
-	font-family: "Garamond", georgia, serif;
+	font-family: Garamond, "Garamond", georgia, serif;
 	font-size: 30px;
 	margin-bottom: 0px;
 	color:white;
@@ -221,7 +221,7 @@ iframe{
 }
 
 .year{
-	font-family: georgia, serif;
+	font-family: Garamond, "Garamond", georgia, serif;
 	font-variant-numeric: proportional-nums; 
 }
 
