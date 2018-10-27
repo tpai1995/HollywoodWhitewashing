@@ -116,58 +116,6 @@ tr{
 	word-break:break-all;
 }
 
-/*.twenty{
-	left: 40px;
-	top: 90px;
-}
-
-.thirty{
-	left:40px;
-	top: 340px;
-}*/
-
-/*.
-.fourty{
-	left:40px;
-	top:510px;
-}
-
-.fifty{
-	left: 40px;
-	top: 925px;
-}
-
-.sixty{
-	left: 40px;
-	top: 1600px;
-}
-
-.seventy{
-	left: 40px;
-	top:2350px;
-}
-
-.eighty{
-	left:40px;
-	top:2430px;
-}
-
-.ninety{
-	left:40px;
-	top:3100px;
-}
-.twothousand{
-	left:40px;
-	top:3435px;
-}
-
-.twothousandten{
-	left:40px;
-	top:4280px;
-}
-
-*/
-
 h3{
 	margin-bottom: 5px;
 	font-family: "Akzidenz_Bold", arial;
@@ -320,3 +268,10 @@ iframe{
 	padding-top:15%;
 }
 
+/* Smartphone Portrait and Landscape */ 
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){ 
+      .mobileShow {display: block;}
+      .mainIFrame{display: none;}
+}
