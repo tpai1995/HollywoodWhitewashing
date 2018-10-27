@@ -269,9 +269,27 @@ iframe{
 }
 
 /* Smartphone Portrait and Landscape */ 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px){ 
-      h1 {font-size: 1em;
-	color: green;}
-}
+.mobileShow {
+  			display: none;
+  			background: red;
+   	 background: -webkit-linear-gradient(red, white); /* For Safari 5.1 to 6.0 */
+  	  background: -o-linear-gradient(red, white); /* For Opera 11.1 to 12.0 */
+  	  background: -moz-linear-gradient(red, white); /* For Firefox 3.6 to 15 */
+ 	  background: linear-gradient(red, white); /* Standard syntax */
+  	  background-attachment: fixed;
+  	  background-repeat: no-repeat;
+  			height: 100vh;
+  			width: 100vw;
+  			padding: 20px;
+  			position: fixed;
+  			top:0;
+  			left: 0;
+  			z-index: 999;
+  		} 
+
+ /* Smartphone Portrait and Landscape */ 
+ 		@media only screen 
+    		and (min-device-width : 320px) 
+   		and (max-device-width : 480px){ 
+      		.mobileShow {display: block;}
+  		}
